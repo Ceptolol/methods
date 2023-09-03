@@ -1,0 +1,20 @@
+{
+    "listener": ":8090",
+    "api_key": "kis",
+   "timeout": 6,
+    "methods": {
+        "gorilla-gudp": {
+            "enabled": true,
+            "maxtime": 8000,
+            "targets": [
+                {
+                    "method": "tcp-bypass1",
+                    "target": [
+                    ],
+                    "pathEncoding": false,
+                    "verbosity": true
+                }
+            ]
+        }
+    }
+}
